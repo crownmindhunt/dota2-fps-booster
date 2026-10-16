@@ -1,0 +1,30 @@
+# dota2-fps-booster default tweak set
+# See CONTRIBUTING.md before adding new entries.
+
+[[tweak]]
+id = "gpu.shader_cache_size"
+name = "Enlarge Dota 2 shader cache"
+category = "GpuPipeline"
+recommended = "unlimited"
+requires_restart = false
+
+[[tweak]]
+id = "cpu.priority_high"
+name = "Raise dota2.exe priority to HIGH"
+category = "Scheduler"
+recommended = "high"
+requires_restart = false
+
+[[tweak]]
+id = "timer.resolution_0_5ms"
+name = "Request 0.5ms timer resolution"
+category = "Scheduler"
+recommended = "0.5"
+requires_restart = false
+
+[[tweak]]
+id = "filesystem.disable_shader_precache"
+name = "Skip shader precache on launch"
+category = "Filesystem"
+recommended = "1"
+requires_restart = true
