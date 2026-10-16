@@ -1,0 +1,9 @@
+# Tweak ids that must never be applied. Mirrors vac_denylist.cpp.
+denied_prefixes = [
+    "engine.dll.",
+    "client.dll.",
+    "hook.",
+    "inject.",
+    "memory.patch.",
+    "convars.sv_cheats",
+]
