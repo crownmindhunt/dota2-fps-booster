@@ -1,0 +1,3 @@
+add_executable(tweak_registry_tests tweak_registry_tests.cpp)
+target_link_libraries(tweak_registry_tests PRIVATE tweaker-core)
+add_test(NAME tweak_registry COMMAND tweak_registry_tests)
