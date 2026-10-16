@@ -1,0 +1,38 @@
+# Build artifacts
+build/
+out/
+bin/
+obj/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.user
+
+# Visual Studio
+.vs/
+*.suo
+*.sln.docstates
+
+# C# / .NET
+[Dd]ebug/
+[Rr]elease/
+project.lock.json
+*.userprefs
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+desktop.ini
